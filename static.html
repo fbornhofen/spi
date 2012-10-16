@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>SPi</title>
+  <script>
+    function updateImage() {
+      var imageNode = document.getElementById('theImage');
+      imageNode.src = imageNode.src;
+      window.setTimeout(updateImage, 1000);
+    }
+  </script>
+</head>
+<body onload="updateImage();">
+<img id="theImage" src="/image.jpg" />
+</body>
+</html>
