@@ -1,1 +1,2 @@
-Trying to hook up Node.js and OpenCV on the Pi so the Pi can spy.
+Minimal solution for streaming images from a USB cam.
+It runs on the Raspberry Pi.
